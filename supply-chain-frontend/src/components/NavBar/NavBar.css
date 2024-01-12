@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1em 5em;
+    background-color: rgba(0,0,0,.5);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+span {
+    font-size: 1.6em;
+}
+
+ul {
+    display: flex;
+    gap: 1em;
+    margin-left: 5em;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: beige;
+    color: black;
+}
+a:active {
+    background-color: #fff;
+    color: black;
+
+}
